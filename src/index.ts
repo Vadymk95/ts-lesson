@@ -1,1 +1,5 @@
-console.log('I am working...');
+import App from './pages/app';
+
+const app = new App();
+
+app.run();
